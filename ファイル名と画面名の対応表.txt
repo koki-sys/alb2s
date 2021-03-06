@@ -1,0 +1,20 @@
+ファイル名と画面名の対応表
+
+学生、教員用画面
+ヘッダー = header.php
+トップ画面 = top.php
+
+ログイン画面 = login_booklist.php
+新規登録画面　= newreg_booklist.php
+新規登録完了画面 = regcomp_booklist.php
+
+予約一覧表示画面 = index.php
+予約変更確認画面 = Change_confirmation.php
+予約変更完了画面 = Change_completed
+予約キャンセル確認画面 = Cancellation_confirmation.php
+予約キャンセル完了画面 = Cancellation_completed.php
+
+カート追加画面 = cart-insert.php
+カート内確認画面 = bo_conf.php
+
+支払い方法選択画面 = pay.php

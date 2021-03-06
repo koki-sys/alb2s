@@ -1,0 +1,79 @@
+a {
+  text-decoration: none;
+}
+.reserve-nav {
+  background-color: #fff6e6;
+}
+
+.bar-title {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.back-btn {
+  box-sizing: border-box;
+  height: 33px;
+  line-height: 33px;
+  background-color: rgba(129, 129, 129, 1);
+  color: #333;
+  box-shadow: 0 3px rgba(49, 49, 49, 1);
+  border-radius: 5%;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+}
+
+.back-btn:hover {
+  background-color: rgba(49, 49, 49, 1);
+  color: white;
+  text-decoration: none;
+}
+
+.cancel-btn {
+  box-sizing: border-box;
+  height: 33px;
+  line-height: 33px;
+  width: 100%;
+  background-color: #eebcce;
+  color: white;
+  box-shadow: 0 3px #b38b99;
+  border-radius: 5%;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+}
+
+.cancel-btn:hover {
+  background-color: #b38b99;
+  color: white;
+  text-decoration: none;
+}
+
+.update-btn {
+  box-sizing: border-box;
+  height: 33px;
+  line-height: 33px;
+  width: 100%;
+  border-style: none;
+  background-color: #b1e0ec;
+  color: white;
+  box-shadow: 0 3px #7899a1;
+  border-radius: 5%;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+}
+
+.update-btn:hover {
+  background-color: #7899a1;
+  color: white;
+  text-decoration: none;
+}
+
+.back-btn:active,
+.cancel-btn:active,
+.update-btn:active {
+  box-shadow: none;
+  border: none;
+  position: relative;
+  top: 3px;
+}

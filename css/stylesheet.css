@@ -1,0 +1,107 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    font-family:游ゴシック;
+    color:#333;
+}
+
+header img{
+    display:inline-block;
+}
+
+.img-wrap1{
+    border-radius:7%;
+    padding:3% 0;
+}
+
+.img-wrap2{
+    border-radius:15%;
+}
+
+.img-wrap1:hover, .img-wrap2:hover{
+    background-color:rgb(227,227,227);
+    transition:all 0.3s;
+    cursor:pointer;
+}
+
+.day{
+    margin:3% 0;
+}
+
+.day h5{
+    line-height:60px;
+}
+
+.cart-btn,.cart-ins-btn{
+    height:33px;
+    line-height:33px;
+    background-color:rgba(255,72,72,0.8);
+    box-shadow:0 3px rgba(231,18,29,1);
+    border-radius:5%;
+    cursor:pointer;
+    text-align:center;
+    color:#333;
+}
+
+.cart-btn:hover,.cart-ins-btn:hover{
+    background-color:rgba(255,72,72,1);
+    color:white;
+}
+
+.cart-btn:active,.cart-ins-btn:active{
+    box-shadow:none;
+    border:none;
+    position:relative;
+    top:3px;
+}
+
+.not-buy-btn{
+    height:33px;
+    line-height:33px;
+    background-color:rgba(129,129,129,1);
+    color:white;
+    border-radius:5%;
+    cursor:pointer;
+    text-align:center;
+}
+
+#cart-insert{
+    text-align: center;
+    background-color:#FFF;
+}
+
+.close-btn{
+    height:33px;
+    line-height:33px;
+    background-color:rgba(129,129,129,1);
+    box-shadow:0 3px rgba(49,49,49,1);
+    border-radius:5%;
+    cursor:pointer;
+    text-align:center;
+    color:#333;;
+}
+
+.close-btn:hover{
+    background-color:rgba(49,49,49,1);
+    color:white;
+}
+
+.close-btn:active{
+    box-shadow:none;
+    position:relative;
+    top:3px;
+}
+
+#cart_icon{
+    position:relative;
+}
+
+#cart_icon p{
+    position: absolute;
+    top: 28%;
+    left: 38%;
+    -ms-transform: translate(-40%,-30%);
+    -webkit-transform: translate(-40%,-30%);
+    transform: translate(-40%,-30%);
+}

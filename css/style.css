@@ -1,0 +1,55 @@
+.naka{
+    text-align:center;
+}
+.fo{
+    font-size:150%;
+}
+.fo2{
+    font-size:120%;
+}
+.tx{
+    width:150%;
+    box-sizing:bordr-box;
+}
+input.form{
+    widows: 60%;
+    height:30px;
+}
+.but{
+    font-size:1.4em;
+    font-weight:bold;
+    padding:10px 30px;
+    background-color:#24d;
+    color:#fff;
+    border-style:none;
+    text-shadow: 1px 1px 2px #000;
+    background: -moz-linear-gradient(bottom, #36d, #248 50%, #36d);
+    background: -webkit-gradient(linear, left bottom, left top, from(#36d), color-stop(0.5, #248), to(#36d));
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+.but2{
+    font-size:1.4em;
+    font-weight:bold;
+    padding:2px 30px;
+    background-color:#24d;
+    color:#fff;
+    border-style:none;
+    text-shadow: 1px 1px 2px #000;
+    background: -moz-linear-gradient(bottom, #36d, #248 50%, #36d);
+    background: -webkit-gradient(linear, left bottom, left top, from(#36d), color-stop(0.5, #248), to(#36d));
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+input{
+    margin: 0 auto;
+    text-align:center;
+}
+.log{
+    font-size:300%;
+    text-align:center;
+}
